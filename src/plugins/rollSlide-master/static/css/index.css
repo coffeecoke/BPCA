@@ -23,9 +23,7 @@ p{
     height:175px;
     overflow: hidden;
 }
-.roll-wrap .roll__list{
 
-}
 .roll_row .roll__list::before, .roll_row .roll__list::after {
     content: "";
     display: table;
@@ -41,10 +39,10 @@ p{
     float: left;
     display: block;
     margin-right: 20px;
-    width: 268px;
-    height: 175px;
-    background-color: #ff9900;
+    
+    /* background-color: #fff; */
 }
+
 .control{
     position: absolute;
     top: 30px;
