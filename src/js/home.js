@@ -1,3 +1,7 @@
+$(".box-meau-ul li").click(function(){
+    $(this).addClass("meauHover").siblings().removeClass("meauHover");
+})
+
 $('#roll').rollSlide({
   orientation: 'left',
   num: 2,
