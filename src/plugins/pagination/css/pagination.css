@@ -1,6 +1,11 @@
 .pages {
-  float: right;
-  margin: 20px 0 40px 0;
+    float:left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    display: inline-block;
+    margin: 20px 0 40px 0;
 }
 .pages #Pagination {
   float: left;
