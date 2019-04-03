@@ -1,0 +1,144 @@
+.box-pager-title{
+    font-size:14px;
+    position: relative;
+    padding-top:10px;
+}
+.box-pager-title:before{
+    content: "";
+    width: 40px;
+    height:4px;
+    background: #ffbb10;
+    position: absolute;
+    top:-10px;
+    left:0;
+    border-radius: 5px;
+}
+.box-pager-list{
+    width:240px;
+    margin-toP:20px;
+}
+.box-pager-list li{
+    float: left;
+    width:28px;
+    height:28px;
+    text-align: center;
+    vertical-align: middle;
+    border:solid 1px #ccc;
+    margin:4px;
+    border-radius: 2px;
+}
+.active{
+    background: #4675c7;
+    color:#fff;
+    border:none!important;
+}
+.box-pager-submit{
+    float: right;
+    width:100%;
+    height:50px;
+}
+.box-pager-submit span{
+    float: right;
+    display: inline-block;
+    font-size:24px;
+    padding-right: 20px;
+}
+.btn-submit{
+    float: right;
+    border:none;
+    outline: none;
+    background:#4675c7;
+    padding:5px 40px;
+    border-radius: 25px;
+    color:#fff;
+}
+.box-pager-choice{
+    padding:20px 0;
+    display: none;
+}
+.box-pager-choice p{
+    font-size:14px;
+}
+.box-pager-choice p span{
+    color:#4675c7;
+}
+.box-pager-choice ul{
+    margin:20px 0;
+}
+.box-pager-choice ul li{
+    padding:10px 0;
+}
+.box-pager-choice ul li div{
+    float: left;
+}
+.box-pager-choice ul li p{
+    float: left;
+    padding-left:10px;
+}
+.rd {
+	display: none;  /* 将原生的radio隐藏 */
+}
+ 
+/* label 模拟 “底部框” */
+.rd + label {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+    background-color: #fff;
+    border:solid 1px #ccc;
+	// box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1) inset, 0 1px 4px rgba(0, 0, 0, 0.1) inset, 1px -1px 2px rgba(0, 0, 0, 0.1);	
+}
+ 
+/* “label::before伪元素 模拟 “选择小圆块” */
+.rd + label:before {
+	content: '';
+	position: absolute;
+	top: 8px;
+	left: 8px;		
+	z-index: 500;
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	background: #f1f1f1;
+	-webkit-transition: all 0.15s ease-in;
+	transition: all 0.15s ease-in;
+}
+ 
+/* radio选中状态时，“底部框”的样式 */
+.rd:checked + label {
+    background: #4675c7;
+    border:none;	
+}
+ 
+/* radio选中状态时，“选择小圆块”的样式 */
+.rd:checked + label:before {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 8px;
+	height: 8px;			
+}
+.slide-list li{
+    float: left;
+    width:50%;
+    height:50px;
+}
+.slide-list li a{
+    width:80%;
+    height:50px;
+    line-height: 50px;
+    display: inline-block;
+    background: #f3f3f3;
+    text-align: center;
+    color:#919191;
+}
+.slide-list li a i{
+    padding-left: 10px;
+}
+.activeShow{
+    display:block;
+}
