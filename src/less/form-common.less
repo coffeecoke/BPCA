@@ -41,6 +41,7 @@
     border-radius:0;
     &::placeholder {
       color:#aaa;
+      font-size:14px;
     }
     &:focus {
       border-bottom:1px solid #4675c7;
@@ -90,6 +91,7 @@
       line-height: 32px;
     }
   }
+  // 
   &.has-reset{
     .form-control {
       padding-right:60px;
@@ -105,6 +107,22 @@
       color:#fff;
       background-color:#4675c7;
       text-align: center;
+      cursor: pointer;
+    }
+  }
+  &.has-code {
+    .form-control {
+      padding-right:100px;
+    }
+    .form-control-code {
+      position: absolute;
+      right:0;
+      bottom:3px;
+      width:90px;
+      height:26px;
+      line-height: 26px;
+      color:#4675c7;
+      text-align: right;
       cursor: pointer;
     }
   }
