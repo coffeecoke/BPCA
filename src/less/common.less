@@ -25,6 +25,16 @@
   position: absolute;
   top: 65px;
   left: 165px;
+  .logo-tip {
+    text-align: center;
+    color:#999;
+    display: none;
+  }
+  &:hover {
+    .logo-tip {
+      display:block;
+    }
+  }
 }
 /* banner */
 /* 导航 */
@@ -35,7 +45,6 @@
 }
 .nav-list {
   float: left;
-  padding-left: 120px;
 }
 .nav-list li {
   line-height: 46px;
@@ -48,7 +57,6 @@
 }
 .nav-input {
   float: right;
-  padding-right: 120px;
   position: relative;
 }
 .nav-input-text {
@@ -224,6 +232,8 @@
 }
 .footer-list {
   padding: 60px 0 0 120px;
+  width:1200px;
+  margin: 0 auto;
 }
 .footer-list-title {
   color: #313c4e;
@@ -239,10 +249,13 @@
   float: left;
   color: #62738f;
   padding: 0 20px;
+ 
 }
 .footer-ewm {
   padding-top: 39px;
   padding-left: 120px;
+  width:1200px;
+  margin: 0 auto;
 }
 .footer-ewm-dl dt {
   float: left;
