@@ -3,16 +3,18 @@
   background:url(../img/logo.png) 30px center no-repeat;
 }
 .login-content {
-  min-height:590px;
   position: relative;
-  background:#fff url(../img/login-bg.png) center -43px no-repeat;;
+  background:#fff url(../img/login-bg.png) center -43px no-repeat;
+  &:before {
+    content: '';
+    display: table;
+    line-height: 0;
+  }
 }
 .login-form {
-  position: relative;
-  top:100px;
+  margin: 50px auto;
   padding:10px 40px 20px 40px;
   width:448px;
-  margin:0 auto;
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(204,204,204,.7);
   background-color:#fff;
