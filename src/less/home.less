@@ -24,7 +24,7 @@ section {
 
 .tzgg {
   width: 520px;
-  margin: 0 20px;
+  margin: 0 10px;
   padding-top: 20px;
 }
 
@@ -36,7 +36,7 @@ section {
 }
 
 .list-box__header {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 
   hgroup {
     float: left;
@@ -70,7 +70,7 @@ section {
   }
 
   .more {
-    color: #ddd;
+    color: #999;
     float: right;
     font-size: 12px;
     cursor: pointer;
@@ -143,7 +143,8 @@ section {
 
     span {
       width: 80%;
-      display: inline-block;
+      display:inline-block;
+      vertical-align: middle;
       color: #333;
       font-size: 14px;
       white-space: nowrap;
@@ -168,8 +169,7 @@ aside {
   height: 288px;
   background-color: #f9f9f9;
   box-shadow: 0 0 4px 4px #f5f5f5;
-  padding: 20px 30px;
-
+  padding: 20px;
   dl {
     margin-bottom: 20px;
   }
@@ -177,8 +177,8 @@ aside {
   dt {
     display: inline-block;
     vertical-align: middle;
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
     margin-right: 4px;
     margin-top: 10px;
 
@@ -216,7 +216,90 @@ aside {
     }
   }
 }
+aside.sign-out-aside {
+  float: right;
+  width: 210px;
+  height: 288px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 4px 4px #f5f5f5;
+  padding: 20px 16px;
+  .aside-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    .aside-title {
+      font-size:18px;
+    
+    }
+    .sign-out {
+      font-size:14px;
+      color:#9eb5df;
+    }
+  }
+  .aside-desc {
+    color:#333;
+    font-size:14px;
+    margin-top:20px;
+  }
+  & >a {
+    display:block;
+    width:50%;
+    float:left;
+  }
+  dl {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items:center;
+  }
 
+  dt {
+    display: inline-block;
+    vertical-align: middle;
+    width: 36px;
+    height: 30px;
+    margin-right: 4px;
+    margin-top: 10px;
+    text-align: center;
+    &.aside-icon1 {
+      background: url(../img/user-setting.png) center no-repeat;
+    }
+
+    &.aside-icon2 {
+      background: url(../img/icon2.png) center no-repeat;
+    }
+
+    &.aside-icon3 {
+      background: url(../img/joining.png) center no-repeat;
+    }
+
+    &.aside-icon4 {
+      background: url(../img/aside-icon5.png) center no-repeat;
+    }
+    
+  }
+
+  dd {
+    display: inline-block;
+    vertical-align: middle;
+
+    hgroup {
+      span {
+        display: block;
+        text-align: center;
+        color: #999;
+        font-size: 10px;
+      }
+
+      h4 {
+        color: #333;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+  }
+}
 .hydt {
   .roll__list {
     li {
@@ -234,8 +317,8 @@ aside {
 .hydw {
   .roll__list {
     li {
-      width: 224px;
-      height: 132px;
+      width: 210px;
+      height: 90px;
       text-align: center;
 
       img:first-child {

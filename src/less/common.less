@@ -29,6 +29,10 @@
     text-align: center;
     color:#999;
     display: none;
+    float: right;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size:12px;
   }
   &:hover {
     .logo-tip {
@@ -45,14 +49,46 @@
 }
 .nav-list {
   float: left;
+  
 }
-.nav-list li {
+.nav-list >li {
   line-height: 46px;
   float: left;
   font-size: 14px;
-  padding: 0 35px;
+  padding: 0 15px;
+  position: relative;
+  .second-menu{
+    display:none;
+    position: absolute;
+    z-index:10;
+    top:100%;
+    width:140px;
+    left:50%;
+    transform:translateX(-50%);
+    background:rgba(70,116,198,.8);
+    padding-left:14px;
+    li {
+      line-height:32px;
+    }
+    & a {
+      color:#fff;
+    }
+  }
 }
-.nav-list li a {
+.nav-list >li >a {
+  padding:6px 20px;
+  // display: inline-block;
+  border-radius:4px;
+  background-color:#4774c7;
+}
+.nav-list >li:hover>a {
+  color:#4774c7;
+  background-color:#fff;
+}
+.nav-list >li:hover > .second-menu {
+  display: block;
+}
+.nav-list > li > a {
   color: #fff;
 }
 .nav-input {
@@ -126,7 +162,9 @@
     padding:0 20px;
 }
 .news-rel{
-    font-size:18px;
+  height: 50px;
+  line-height:50px;
+  font-size:18px;
 }
 .news-rel span{
     font-size:12px;
@@ -227,13 +265,14 @@
 /* footer */
 .box-footer {
   width: 100%;
-  height: 322px;
+  height: 250px;
   background: #a7b2c4;
 }
 .footer-list {
   padding: 60px 0 0 120px;
   width:1200px;
   margin: 0 auto;
+  display:none;
 }
 .footer-list-title {
   color: #313c4e;
@@ -251,11 +290,18 @@
   padding: 0 20px;
  
 }
+.footer-list-item li a {
+  color:#62738f;
+}
 .footer-ewm {
-  padding-top: 39px;
-  padding-left: 120px;
+  padding-top: 70px;
   width:1200px;
   margin: 0 auto;
+  overflow: hidden;
+}
+.footer-ewm-dl {
+  overflow:hidden;
+  float:left;
 }
 .footer-ewm-dl dt {
   float: left;
@@ -268,6 +314,22 @@
   padding-top: 20px;
   color: #62738f;
   font-size: 14px;
+}
+.footer-ewm-form {
+  float:right;
+}
+.footer-ewm-form h3 {
+  color:#000;
+  font-size:14px;
+}
+.footer-ewm-form .form-control {
+  width:212px;
+  height:30px;
+  box-sizing: border-box;
+  border:1px solid #ccc;
+  box-shadow: 0 0 4px  #ccc;
+  padding-left:16px;
+  margin-top:10px;
 }
 /* footer */
 .member-meau .box-meau-list1{
