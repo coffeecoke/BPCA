@@ -18,3 +18,6 @@ $('#roll2').rollSlide({
   space: 3000,
   isRoll: true
 });
+$('.aside-title').txtscroll({
+  'speed': 50
+});
