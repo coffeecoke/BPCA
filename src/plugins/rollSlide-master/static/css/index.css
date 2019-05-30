@@ -24,7 +24,7 @@ p{
 .roll-wrap{
     position: relative;
     width: 100%;
-    height:175px;
+    height:110px;
     /* overflow: hidden; */
 }
 
@@ -51,7 +51,7 @@ p{
 
 .control{
     position: absolute;
-    line-height:175px;
+    line-height:110px;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
@@ -64,7 +64,7 @@ p{
 .control.pre{
     left: -34px;
     height: 100%;
-    line-height: 175px;
+    line-height: 110px;
     text-align: center;
     width: 30px;
     background-color: #d5d9e5;
@@ -72,7 +72,7 @@ p{
 .control.next{
     right: -34px;
     height: 100%;
-    line-height: 175px;
+    line-height: 110px;
     text-align: center;
     width: 30px;
     background-color: #d5d9e5;

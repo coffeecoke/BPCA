@@ -1,7 +1,9 @@
 $(".box-meau-ul li").click(function(){
     $(this).addClass("meauHover").siblings().removeClass("meauHover");
 })
-
+$(".img-logo").hover(function(){
+  $(".logo-tip").toggleClass("on");
+})
 $('#roll').rollSlide({
   orientation: 'left',
   num: 2,
