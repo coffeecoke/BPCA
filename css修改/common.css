@@ -1,0 +1,491 @@
+.p-120 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.box-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.w1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* banner */
+.box-banner {
+  position: relative;
+  width: 100%;
+  height: 335px;
+}
+.box-banner .img-banner {
+  width: 100%;
+  height: 100%;
+}
+.img-logo {
+  position: absolute;
+  top: 65px;
+  left: 165px;
+}
+.img-logo .logo-tip {
+  text-align: 30px;
+  color: #999;
+  padding-left: 50px;
+  margin-left: 20px;
+  font-size: 14px;
+  display: none;
+}
+.img-logo:hover .logo-tip {
+  display: block;
+}
+/* banner */
+/* 瀵艰埅 */
+.box-nav {
+  width: 100%;
+  height: 46px;
+  background: #4674c6;
+}
+.nav-list {
+  float: left;
+}
+.nav-list > li {
+  line-height: 46px;
+  float: left;
+  font-size: 14px;
+  padding: 0 15px;
+  position: relative;
+}
+.nav-list > li .second-menu {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  width: 140px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: rgba(70, 116, 198, 0.8);
+  padding-left: 14px;
+}
+.nav-list > li .second-menu li {
+  line-height: 32px;
+}
+.nav-list > li .second-menu a {
+  color: #fff;
+}
+.nav-list > li > a {
+  padding: 6px 20px;
+  border-radius: 4px;
+  background-color: #4774c7;
+}
+.nav-list > li:hover > a {
+  color: #4774c7;
+  background-color: #fff;
+}
+.nav-list > li:hover > .second-menu {
+  display: block;
+}
+.nav-list > li > a {
+  color: #fff;
+}
+.nav-input {
+  float: right;
+  position: relative;
+}
+.nav-input-text {
+  width: 237px;
+  height: 32px;
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  margin-top: 8px;
+  color: #a2a2a2;
+  font-size: 12px;
+}
+.img-search {
+  position: absolute;
+  top: 18px;
+  left: 5px;
+}
+/* 瀵艰埅 */
+/* 鍐呭 */
+.box-content {
+  width: 100%;
+  min-height: 500px;
+}
+.box-detali-l-ul li {
+  padding: 20px 0;
+  border-bottom: solid 1px #ccc;
+  cursor: pointer;
+}
+.detali-title {
+  font-size: 18px;
+  color: #333;
+}
+.text-over {
+  width: 80%;
+  line-height: 35px;
+  color: #666;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.detali-intro {
+  color: #999;
+  font-size: 12px;
+}
+.box-thematic {
+  width: 100%;
+  margin-top: 35px;
+  position: relative;
+}
+.box-the-left {
+  float: left;
+  min-width: 240px;
+  height: auto;
+  position: absolute;
+}
+.box-the-right {
+  margin-left: 250px;
+}
+.box-the-title {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: solid 2px #b4c1d1;
+  padding: 0 20px;
+}
+.news-rel {
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+}
+.news-rel span {
+  font-size: 12px;
+  color: #999;
+  padding-left: 5px;
+}
+.box-banner-img img {
+  display: block;
+  width: 100%;
+}
+.box-meau {
+  padding: 30px 20px;
+}
+.box-meau-li .box-meau-a {
+  color: #000;
+  display: block;
+  line-height: 40px;
+  padding-left: 25px;
+}
+.box-meau-list1 {
+  background: url(../img/about-icon1.png) no-repeat left center;
+}
+.box-meau-list2 {
+  background: url(../img/about-icon2.png) no-repeat left center;
+}
+.box-meau-list3 {
+  background: url(../img/about-icon3.png) no-repeat left center;
+}
+.box-meau-list4 {
+  background: url(../img/about-icon4.png) no-repeat left center;
+}
+.box-meau-list5 {
+  background: url(../img/about-icon5.png) no-repeat left center;
+}
+.meauHover .box-meau-list1 {
+  background: url(../img/about-hover-icon1.png) no-repeat left center;
+}
+.meauHover .box-meau-list2 {
+  background: url(../img/about-hover-icon2.png) no-repeat left center;
+}
+.meauHover .box-meau-list3 {
+  background: url(../img/about-hover-icon3.png) no-repeat left center;
+}
+.meauHover .box-meau-list4 {
+  background: url(../img/about-hover-icon4.png) no-repeat left center;
+}
+.meauHover .box-meau-list5 {
+  background: url(../img/about-hover-icon5.png) no-repeat left center;
+}
+.meauHover a {
+  color: #7391e5!important;
+}
+.box-submeau-ul {
+  display: none;
+}
+.box-submeau-ul li {
+  line-height: 30px;
+  color: #666;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+.box-submeau-ul li:before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  background: #d52527;
+  position: absolute;
+  top: 14px;
+  left: 15px;
+}
+.box-right-con {
+  padding-left: 40px;
+}
+.box-pos-list li {
+  float: left;
+  line-height: 50px;
+  color: #999;
+  font-size: 14px;
+}
+.box-pos-list li a {
+  color: #999;
+}
+.colorActive a {
+  color: #7391e5!important;
+}
+.box-detali-dl dt {
+  float: left;
+}
+.box-detali-dl dd {
+  float: left;
+  padding-left: 20px;
+}
+/* 鍐呭 */
+/* footer */
+.box-footer {
+  width: 100%;
+  height: 250px;
+  background: #a7b2c4;
+}
+.footer-list {
+  padding: 60px 0 0 120px;
+  width: 1200px;
+  margin: 0 auto;
+  display: none;
+}
+.footer-list-title {
+  color: #313c4e;
+  font-size: 14px;
+  float: left;
+}
+.footer-list-item {
+  float: left;
+  padding-left: 30px;
+}
+.footer-list-item li {
+  font-size: 14px;
+  float: left;
+  color: #62738f;
+  padding: 0 20px;
+}
+.footer-list-item li a {
+  color: #62738f;
+}
+.footer-ewm {
+  padding-top: 70px;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.footer-ewm-dl {
+  overflow: hidden;
+  float: left;
+}
+.footer-ewm-dl dt {
+  float: left;
+}
+.footer-ewm-dl dd {
+  float: left;
+  padding-left: 24px;
+}
+.footer-ewm-dl dd p {
+  padding-top: 20px;
+  color: #62738f;
+  font-size: 14px;
+}
+.footer-ewm-form {
+  float: right ;
+  margin-top:-10px;
+}
+.footer-ewm-form h3 {
+  color: #000 ;;
+  font-size: 14px;;
+}
+.footer-ewm-form .form-control {
+   width: 212px ;
+   height: 30px ;;
+   box-sizing: border-box ;;
+   border: 1px solid #ccc ;;
+   box-shadow: 0 0 4px  #ccc ;;
+   padding-left: 16px ;;
+   margin-top: 10px ;;
+ }
+.footer-ewm-form .form-group {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.footer-ewm-form .select2-container--default,.footer-ewm-form .selection{
+  width: 212px !important;
+  height: 30px !important;;
+}
+ 
+/* footer */
+.member-meau .box-meau-list1 {
+  background: url(../img/member-icon1.png) no-repeat left center;
+}
+.member-meau .box-meau-list2 {
+  background: url(../img/member-icon2.png) no-repeat left center;
+}
+.member-meau .box-meau-list3 {
+  background: url(../img/member-icon3.png) no-repeat left center;
+}
+.member-meau .box-meau-list4 {
+  background: url(../img/member-icon4.png) no-repeat left center;
+}
+ 
+ 
+ 
+.box-meau-gerenxinxishezhi {
+  background: url(../img/gerenxinxishezhi.png) no-repeat left center;
+}
+.meauHover .box-meau-gerenxinxishezhi {
+  background: url(../img/gerenxinxishezhi-s.png) no-repeat left center;
+}
+.box-meau-mimaxiugai {
+  background: url(../img/mimaxiugai.png) no-repeat left center;
+}
+.meauHover .box-meau-mimaxiugai {
+  background: url(../img/mimaxiugai-s.png) no-repeat left center;
+}
+.box-meau-xiehuizhangcheng {
+  background: url(../img/xiehuizhangcheng.png) no-repeat left center;
+}
+.meauHover .box-meau-xiehuizhangcheng {
+  background: url(../img/xiehuizhangcheng-s.png) no-repeat left center;
+}
+.box-meau-xiehuijianjie {
+  background: url(../img/xiehuijianjie.png) no-repeat left center;
+}
+.meauHover .box-meau-xiehuijianjie {
+  background: url(../img/xiehuijianjie-s.png) no-repeat left center;
+}
+ 
+.box-meau-rencaizhaopin {
+  background: url(../img/rencaizhaopin.png) no-repeat left center;
+}
+.meauHover .box-meau-rencaizhaopin {
+  background: url(../img/rencaizhaopin-s.png) no-repeat left center;
+}
+ 
+.box-meau-lianxixiehui {
+  background: url(../img/lianxixiehui.png) no-repeat left center;
+}
+.meauHover .box-meau-lianxixiehui {
+  background: url(../img/lianxixiehui-s.png) no-repeat left center;
+}
+.box-meau-dangjianxinxi {
+  background: url(../img/dangjianxinxi.png) no-repeat left center;
+}
+.meauHover .box-meau-dangjianxinxi {
+  background: url(../img/dangjianxinxi-s.png) no-repeat left center;
+}
+ 
+.box-meau-xinxidongtai {
+  background: url(../img/xinxidongtai.png) no-repeat left center;
+}
+.meauHover .box-meau-xinxidongtai {
+  background: url(../img/xinxidongtai-s.png) no-repeat left center;
+}
+ 
+.box-meau-hangyedongtai {
+  background: url(../img/hangyedongtai.png) no-repeat left center;
+}
+.meauHover .box-meau-hangyedongtai {
+  background: url(../img/hangyedongtai-s.png) no-repeat left center;
+}
+ 
+.box-meau-xiehuidongtai {
+  background: url(../img/xiehuidongtai.png) no-repeat left center;
+}
+.meauHover .box-meau-xiehuidongtai {
+  background: url(../img/xiehuidongtai-s.png) no-repeat left center;
+}
+ 
+.box-meau-yonghudongtai {
+  background: url(../img/yonghudongtai.png) no-repeat left center;
+}
+.meauHover .box-meau-yonghudongtai {
+  background: url(../img/yonghudongtai-s.png) no-repeat left center;
+}
+.box-meau-tupianxinwen {
+  background: url(../img/tupianxinwen.png) no-repeat left center;
+}
+.meauHover .box-meau-tupianxinwen {
+  background: url(../img/tupianxinwen-s.png) no-repeat left center;
+}
+ 
+.box-meau-huiyuanjibiebiangeng {
+  background: url(../img/huiyuanjibiebiangeng.png) no-repeat left center;
+}
+.meauHover .box-meau-huiyuanjibiebiangeng {
+  background: url(../img/huiyuanjibiebiangeng-s.png) no-repeat left center;
+}
+.box-meau-renyuanjiarushenhe {
+  background: url(../img/renyuanjiarushenhe.png) no-repeat left center;
+}
+.meauHover .box-meau-renyuanjiarushenhe {
+  background: url(../img/renyuanjiarushenhe-s.png) no-repeat left center;
+}
+.box-meau-peixunkaoshi {
+  background: url(../img/peixunkaoshi.png) no-repeat left center;
+}
+.meauHover .box-meau-peixunkaoshi {
+  background: url(../img/peixunkaoshi-s.png) no-repeat left center;
+}
+.box-meau-zaixianpeixun {
+  background: url(../img/zaixianpeixun.png) no-repeat left center;
+}
+.meauHover .box-meau-zaixianpeixun {
+  background: url(../img/zaixianpeixun-s.png) no-repeat left center;
+}
+.box-meau-redianguancha {
+  background: url(../img/redianguancha.png) no-repeat left center;
+}
+.meauHover .box-meau-redianguancha {
+  background: url(../img/redianguancha-s.png) no-repeat left center;
+}
+.box-meau-zhengcefagui {
+  background: url(../img/zhengcefagui.png) no-repeat left center;
+}
+.meauHover .box-meau-zhengcefagui {
+  background: url(../img/zhengcefagui-s.png) no-repeat left center;
+}
+ 
+.footer-ewm-form .select2-selection--single{
+  padding-left: 6px !important;
+  height: 30px !important;
+  min-height: 30px !important;
+  font-family:'Source Sans Pro',sans-serif !important;
+}
+.footer-ewm-form .select2-selection--single .select2-selection__rendered{
+  margin-top: -4px !important;
+}
+.footer-ewm-form h3{
+  font-weight:bold !important;
+}
+.queueList .filetable {
+  width:100%;
+}
+.btncancel .btn{
+  border: 0 solid;
+  background-color:rgba(255,255,255,0);
+  color:rgba(255,255,255,0);;
+}
+.btncancel .btn:hover{
+  background-color:rgba(255,255,255,0);;
+}
+.btncancel .btn .fa{
+  color:#4675c7;
+}
